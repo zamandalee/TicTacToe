@@ -42,7 +42,12 @@ class View {
 
       //display winning message
       const $message = $('<h2></h2>');
-      $message.text("You win, " + winner + "!");
+
+      if (winner) {
+        $message.text("You win, " + winner.toUpperCase() + "!");
+      } else {
+        $message.text("You have tied!");
+      }
       $('body').append($message);
     }
   }
