@@ -1,4 +1,6 @@
 # TicTacToe
+### Open index.html to play :)
+<br>
 
 <img src="ttt.gif" width=300 />
 
